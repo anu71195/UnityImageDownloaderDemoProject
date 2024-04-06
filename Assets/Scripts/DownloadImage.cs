@@ -9,7 +9,7 @@ public class DownloadImage : MonoBehaviour
     
     void Start()
     {
-        var url = "https://raw.githubusercontent.com/anu71195/UnityImageDownloaderDemoProject/master/Screenshot%202024-04-06%20at%201.56.00%20PM.png";
+        var url = "https://raw.githubusercontent.com/anu71195/PublicDownloadableAssets/main/UnityImageDownloaderDemoProject.png";
         StartCoroutine(ImageDownloader(url, (sprite =>
         {
             gameObject.GetComponent<Image>().sprite = sprite;
